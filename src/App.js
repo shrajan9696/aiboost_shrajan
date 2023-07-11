@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import OutlinedCard from './components/OutlinedCard';
+import Grid from '@mui/material/Grid'
+import Box from '@mui/material/Box';
+import GridTemplate from './components/GridTemplate'
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h3 class="text-3xl font-bold dark:text-white my-4">Multiple AI Content Generator Features / Use Case </h3>
+   <NavBar/>
+ 
+    <GridTemplate/>
     </div>
   );
 }
